@@ -587,9 +587,6 @@ vendor/etc/camera/s5k4h8_OFF0380_chromatix.xml
 # CNE - from repo5
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
-framework/cneapiclient.jar|af7db889362e562a4c5073bb6aae32947218abf0
-framework/com.quicinc.cne.jar|b392a5a949ffcaabc94c05becb177d7761d1d429
--priv-app/CNEService/CNEService.apk|6584bf10b3debc2add04bc6dd80da2976bbe279e
 vendor/bin/cnd|e517f12f396f78564c5cbce3fd4b344165422d7f
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -650,14 +647,11 @@ etc/dpm/dpm.conf|978cc89635159cbfffec2bf175f9489228dc141a
 etc/init/dpmd.rc|52ca6ad920a1804e4ff608113cece063730f5e0c
 etc/permissions/com.qti.dpmframework.xml|36b94c9338069e434b83359a92cdc7ff62b822df
 etc/permissions/dpmapi.xml|ded29f9befaef20a7ccee0c75427fda1d1d04890
-framework/com.qti.dpmframework.jar|6a911929d934835dfb510314e2ddb3492cb5fd5d
-framework/dpmapi.jar|89ddc5bf0c4c88a3f341169edc4d89f9e834337b
 lib64/com.qualcomm.qti.dpm.api@1.0.so|d0db1d05f85df6c1c2c96d20a5d9545739ccfe55
 lib64/libdpmctmgr.so|495720825907f96fd3b334a1608b5d6c0b4cc60f
 lib64/libdpmfdmgr.so|cb2801e261c88059e4738ea223c6a20ac3a246f2
 lib64/libdpmframework.so|a9efcf0580c9f553d59cc65a021244c9a803f6e6
 lib64/libdpmtcm.so|89187f9d4ecf62c90349c0d9e754e2f47ef52985
--priv-app/dpmserviceapp/dpmserviceapp.apk|d4ba830916e50e968bac4c6ac83f0743dff28aad
 vendor/bin/dpmQmiMgr|87957e889a506c5e8e37ce3cb26219144d569938
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|2169a9b0e0cb8d667e1dc56fd09a7d3c92dea19c
 vendor/lib64/libdpmqmihal.so|fa21a0e13c49174ca7f90a08a129a4fbb745ecac
@@ -738,15 +732,12 @@ etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01c
 etc/permissions/com.qualcomm.location.xml|78b2c4d3f4d053f7d7b3e27a60a8d9e65ac583c3
 etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
 etc/permissions/privapp-permissions-com.qualcomm.location.xml|055fb40299c0a2340bb1b2c9be218a4d2c0f8c72
-framework/com.qti.location.sdk.jar|5af50f654d6174a726c0a57b5f32254e1a9d3016|7eb03326543a73ebdbdac02c03abcd90eb82710e
-framework/izat.xt.srv.jar|586824fa7ebbf204e6f5d0a515fb572b00facc4c
 lib64/liblocationservice_jni.so|38c3f6eea4840512fe0a2d76872ffe2df45245fa|69e9baa11d14eda619a966070aea350abb7bff50
 lib64/libxt_native.so|4f1063ec145b241d74b2178e2aadafa5c9b386b2|1d860b5399c2cc593188c6263f98d6b1935c00c6
 lib64/vendor.qti.gnss@1.0.so|4557a490b9aa4d441a3be56d457cbd08474ba6c6
 lib64/vendor.qti.gnss@1.1.so|bf52242012898264f90fff83691cfa2b65a72eb4
 lib64/vendor.qti.gnss@1.2.so|cd35adf4ae28884ec3f43a20a0ad7917225bcee0
 lib64/vendor.qti.gnss@2.0.so|d2c5cc47018ac4180db0354a35538395e5567fdd
--priv-app/com.qualcomm.location/com.qualcomm.location.apk|256a53679bcc6cae1a1336136b5f4c7fa47e7c17
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|145cafb57015f43c8c610a198b82370bc61e8626
 vendor/etc/izat.conf|ab435d1e93a6d1bdbcf344a29d2b2d633d35a381|59e87dded3846cccec147fd118691e37ced4db8e
@@ -917,7 +908,6 @@ vendor/lib64/libperipheral_client.so|c4b0cb11e908b234a54a9f212c42ff4c37e37391
 
 # Postprocessing - from repo2
 etc/permissions/com.qti.snapdragon.sdk.display.xml|79a36c560f8cdbfeca03911fefc282bda25b2322|0bff16d681e75f203c1e11ff33afba82490e49b3
-framework/com.qti.snapdragon.sdk.display.jar|db5b8dd09100aab238b5972192f5ab944f38208c
 vendor/lib/libdisp-aba.so|1779aa9d99a04db3ab1b5546bd243ba3ecfc1bb5
 vendor/lib64/libdisp-aba.so|2b9a85de013e956f1adfaf00146a865efb7077c4
 
@@ -957,17 +947,10 @@ vendor/lib/libqmi_cci.so|d4e43f6eed7eb3a4bbeeaaa4ba1a93395b03cce6
 vendor/lib64/libqmi_cci.so|785c7ade75fb034a76c05f1054b1f0188bbb981d
 
 # RIL - from repo5
--app/embms/embms.apk|eba45485a1e0daf712e1ca12bf97d51bc012aa81
 etc/permissions/embms.xml|5e1b492874c221a7e1188fc3a5369d32b3e67969
-framework/embmslibrary.jar|980832af89ed59120b7362ddb56d3120bb6b2239
 
 # RIL - from repo2
--app/datastatusnotification/datastatusnotification.apk|ceafcce87298531a3adb13a87709a1fd65291625
--app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
-framework/qcrilhook.jar|784df5e6aa9df0127700b9a6f1083440ebfac057
-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|d1d3adfe6eff32a3013e146317324029181e3c4a
 vendor/etc/data/dsi_config.xml|c919c4a51978bdd54a5560d1f6c595e9d2f0c80f|f4861831fcb21d43e2a9ca12519155ebb8ac1407
 vendor/etc/data/netmgr_config.xml|bd3a9b684ccfdf42374c633959df1960f7bb24fc|97066d76dbfd358895c9d2c02723230cae6cfb1e
 vendor/bin/ATFWD-daemon|d8e8b853f33411504054eb965b1fb836544daee4
@@ -1013,7 +996,6 @@ vendor/bin/ims_rtp_daemon|ceaca0527a6015a54bb13d62fdc14c1b118ffe28
 vendor/bin/imsdatadaemon|cef609ac45fb60d3f3c32365434a6d20483fd0fa
 vendor/bin/imsqmidaemon|ec99238570988966561dd6f3f9c1d1923a3d52e1
 vendor/bin/imsrcsd|ea1397ac49bdb8e9c2eb7084d0516d1bdd25c655
--app/uceShimService/uceShimService.apk|f74db4f1ec52dc2bbc42ac74f9b88594deca90ef|6470c7f3acc951bbb205b990ca64c1e9837eafdb
 lib64/lib-imscamera.so|0532b1ab97d05c2fbeafa684dd2a6dca3767cba6
 lib64/lib-imsvideocodec.so|c44dee9a8e31962baace0d5b9d38dcfb3991b3e6
 lib64/lib-imsvt.so|20b2a65d2f051e13ca6fe76048da78c61459e037
@@ -1024,7 +1006,6 @@ lib64/libimscamera_jni.so|133fec4e7be337eb255eb226c4ff96ae53b94be7
 lib64/libimsmedia_jni.so|17a2cb31fb5960769b4c2c0636fffe721c4f2a74
 lib64/librcc.so|29748474e0608512fe067b96f0aff247a1370e99
 lib64/vendor.qti.imsrtpservice@1.0.so|ebce25d5dd5a09ef7652f5bb0ca01e58ab49e1fb
--priv-app/ims/ims.apk|bc9babd1ca43f6e78e9cd234028a160434441c48
 vendor/bin/ims_rtp_daemon|ceaca0527a6015a54bb13d62fdc14c1b118ffe28
 vendor/bin/imsdatadaemon|cef609ac45fb60d3f3c32365434a6d20483fd0fa
 vendor/bin/imsqmidaemon|ec99238570988966561dd6f3f9c1d1923a3d52e1
@@ -1076,7 +1057,6 @@ vendor/lib64/libthermalclient.so|d54629444729a2c0ae2ee7105487013422252ecc
 vendor/lib64/libthermalioctl.so|d898099eb17b635701b95bff8f451e3f4c8daa53
 
 # Time services - from repo5
--vendor/app/TimeService/TimeService.apk|cbd1224a84615c973ae7601e51bab1321dc95f28
 vendor/bin/time_daemon|c90afb25e86b6bf94da63b591c5e9304e94ed1ff
 vendor/lib64/libtime_genoff.so|13905a4ae06f1403acfd767bdc7d63bedfdb97d6
 
@@ -1108,7 +1088,6 @@ bin/wfdservice|edeb291221024401cbae69c2fa4e58733b7efc4c
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
 etc/wfdconfig.xml|60a210d323f3f65dd1424cfd517295c522824b7b
 etc/wfdconfigsink.xml|134a86f74d9c374ce9081bff92c02515712a7f12
--framework/WfdCommon.jar|5af50f654d6174a726c0a57b5f32254e1a9d3016|ca041b0ae10325ae7c4229204a0fd9da56f3ca4f
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so|ba6ead78f8cdefa80bc155fd790837109ac95377
 lib64/extractors/libmmparser.so|c83e3a856c15d46d477f31e957c2ef1f2eb6e797
 lib64/libFileMux.so|c528ef66ce38e8474690b75d6ee1c9380c424be1
@@ -1138,7 +1117,6 @@ lib/libwfduibcsink.so|2573a8b30d8c774d415ddfa788d4a5b8b12f4c1b
 lib/libwfduibcsinkinterface.so|25235e58eb13e84f0e9bbc06592fdf85369d7529
 lib/libwfduibcsrc.so|1450855e3d019760d7ab777e86e088e23fbd651c
 lib/libwfduibcsrcinterface.so|36614cd4f46d0d3a9e94468ed0052da3cc677ba9
--priv-app/WfdService/WfdService.apk|2fc9a3df3d41c73bf298af00be3221d09ce84ca4
 vendor/bin/wifidisplayhalservice|a410da59d713232984c53cab2e41f0c88cc04dd7
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|04e463342cbba4c0e9c311a18238f95dec9359fd
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so|919e0b2ebbb2f32d442530b115a38c88a29244bf
