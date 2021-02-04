@@ -126,7 +126,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v27/arm/arch-arm-armv7-a-neon/shared/vndk-core/android.frameworks.sensorservice@1.0.so:system/lib/android.frameworks.sensorservice@1.0-v27.so
+#    prebuilts/vndk/v27/arm/arch-arm-armv7-a-neon/shared/vndk-core/android.frameworks.sensorservice@1.0.so:system/lib/android.frameworks.sensorservice@1.0-v27.so
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -135,8 +135,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0_vendor \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
-    Snap \
-    libshims_camera
+    libshims_camera \
+    #Snap \
 
 # mct_pipeline
 PRODUCT_COPY_FILES += \
@@ -191,7 +191,7 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common
+#    ims-ext-common
 
 # IPv6
 PRODUCT_PACKAGES += \
@@ -216,7 +216,7 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
-PRODUCT_BOOT_JARS += qcom.fmradio
+#PRODUCT_BOOT_JARS += qcom.fmradio
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
@@ -377,14 +377,14 @@ PRODUCT_PACKAGES += \
     libcurl \
     libjson \
     libxml2 \
-    telephony-ext
+#    telephony-ext
 
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0 \
     android.hardware.secure_element@1.0
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext
+#    telephony-ext
 
 # Seccomp
 PRODUCT_COPY_FILES += \
@@ -421,6 +421,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK-SP:
 PRODUCT_PACKAGES += \
+    libstdc++.vendor \
     vndk-sp
 
 # Vulkan
@@ -440,9 +441,9 @@ PRODUCT_PACKAGES += \
     wificond \
     wifilogd \
     wlutil \
-    hostapd \
-    wpa_supplicant \
-    wpa_supplicant.conf
+#    hostapd \
+#    wpa_supplicant \
+#    wpa_supplicant.conf
 
 # Wi-FI
 PRODUCT_COPY_FILES += \
@@ -457,5 +458,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # Wi-Fi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
